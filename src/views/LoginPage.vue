@@ -13,7 +13,7 @@
     <ion-content :fullscreen="true">
       <ion-card class="card-container">
         <ion-card-header>
-          <ion-card-title class="card-container__title">INICIA SESIÓN PARA ADMINISTRAR TU PROCESO</ion-card-title>
+          <ion-card-title class="card-container__title">INICIA SESIÓN</ion-card-title>
         </ion-card-header>
 
         <ion-card-content class="card-content">
