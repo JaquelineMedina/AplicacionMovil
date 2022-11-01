@@ -13,7 +13,7 @@
       <ion-card class="div-info-contacto">
         <ion-card-header>
           <ion-card-title class="titulo-info-contacto" color="light"
-            >Información de contacto</ion-card-title
+            >Información de Contacto</ion-card-title
           >
         </ion-card-header>
         <ion-card-content>
