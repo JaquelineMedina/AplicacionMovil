@@ -18,11 +18,11 @@
 
         <ion-card-content class="card-content">
           <ion-item class="card-content__label">
-            <ion-label position="floating">EMAIL</ion-label>
+            <ion-label position="floating">E-mail</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item class="card-content__label">
-            <ion-label position="floating">CONTRASEÑA</ion-label>
+            <ion-label position="floating">Contraseña</ion-label>
             <ion-input type="password"></ion-input>
           </ion-item>
 
@@ -33,10 +33,10 @@
           </div>
 
           <div class="help-container">
-            <p class="help-container__pass">¿OLVIDASTE TU CONTRASEÑA?</p>
+            <p class="help-container__pass">¿Olvidaste tu contraseña?</p>
             <router-link class="router" to="/signup">
               <p class="help-container__signup">
-                ¿NO TIENES USUARIO? REGISTRATE AQUÍ
+                ¿No tienes usuario? Registrate aquí
               </p>
             </router-link>
           </div>
