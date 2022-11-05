@@ -2,7 +2,7 @@
     <ion-menu side="start" content-id="principal">
         <ion-header :translucent="true">
             <ion-toolbar class="toolbar">
-                <ion-title>Menú Principal</ion-title>
+                <ion-title>Menú</ion-title>
             </ion-toolbar>
         </ion-header>
         <ion-content>
@@ -61,8 +61,8 @@ export default defineComponent({
                 { titulo: 'Iniciar Sesión', icono: '/assets/icons/login.svg', redirectTo: '/login' },
                 { titulo: 'Registrarse', icono: '/assets/icons/person-add.svg', redirectTo: '/signup' },
                 { titulo: 'Inicio (Administrador)', icono: '/assets/icons/inicio.svg', redirectTo: '/inicioCliente' },
-                { titulo: 'Carrito de Compras', icono: '/assets/icons/carrito.svg', redirectTo: '/carrito' },
-                { titulo: 'Administrar Producto', icono: '/assets/icons/admin-produc.svg', redirectTo: '/administrarProducto' },
+                // { titulo: 'Carrito de Compras', icono: '/assets/icons/carrito.svg', redirectTo: '/carrito' },
+                // { titulo: 'Administrar Producto', icono: '/assets/icons/admin-produc.svg', redirectTo: '/administrarProducto' },
                 { titulo: 'Configuración de Cuenta', icono: '/assets/icons/configuracion.svg', redirectTo: '/cuentaCliente' },
             ],
         };
