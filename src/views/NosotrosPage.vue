@@ -6,7 +6,7 @@
         <ion-buttons slot="start">
           <ion-menu-button @click="openMenu"> </ion-menu-button>
         </ion-buttons>
-        <ion-title>Nosotros</ion-title>
+        <ion-title>SOBRE NOSOTROS</ion-title>
       </ion-toolbar>
     </ion-header>
 
