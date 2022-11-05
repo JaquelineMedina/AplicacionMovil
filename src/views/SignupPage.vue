@@ -13,24 +13,24 @@
     <ion-content :fullscreen="true">
       <ion-card class="card-container">
         <ion-card-header>
-          <ion-card-title class="card-container__title">INGRESA TUS DASTOS PARA CREAR UNA NUEVA CUENTA</ion-card-title>
+          <ion-card-title class="card-container__title">INGRESA TUS DATOS</ion-card-title>
         </ion-card-header>
 
         <ion-card-content class="card-content">
           <ion-item class="card-content__label">
-            <ion-label position="floating">USUARIO</ion-label>
+            <ion-label position="floating">Usuario</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item class="card-content__label">
-            <ion-label position="floating">EMAIL</ion-label>
+            <ion-label position="floating">E-mail</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item class="card-content__label">
-            <ion-label position="floating">CONTRASEÑA</ion-label>
+            <ion-label position="floating">Contraseña</ion-label>
             <ion-input type="password"></ion-input>
           </ion-item>
           <ion-item class="card-content__label">
-            <ion-label position="floating">CONFIRMAR CONTRASEÑA</ion-label>
+            <ion-label position="floating">Confirmar Contraseña</ion-label>
             <ion-input type="password"></ion-input>
           </ion-item>
 
@@ -43,7 +43,7 @@
           <div class="help-container">
             <router-link class="router" to="/login">
               <p class="help-container__login">
-                ¿YA TIENES USUARIO? INICIA SESIÓN AQUÍ
+                ¿Ya tienes usuario? Inicia Sesión Aquí
               </p>
             </router-link>
           </div>
