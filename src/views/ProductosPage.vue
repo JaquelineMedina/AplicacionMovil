@@ -6,7 +6,7 @@
                 <ion-buttons slot="start">
                     <ion-menu-button @click="openMenu"> </ion-menu-button>
                 </ion-buttons>
-                <ion-title>Productos</ion-title>
+                <ion-title>SERVICIOS</ion-title>
             </ion-toolbar>
         </ion-header>
         <ion-content class="ion-padding" :fullscreen="true">
@@ -90,32 +90,26 @@ export default defineComponent({
             lista: [
                 {
                     id: 1,
-                    imagen: '/assets/img/focoInteligente.jpg',
-                    nombre: 'Foco Led Inteligente ',
-                    descripcion: 'Smart Light con 16 Millones de Colores, Regulable Control Remoto de APP',
-                    precio: '$115',
+                    imagen: '/assets/img/asesorias.png',
+                    nombre: 'Paquete 1 Asesorias ',
+                    descripcion: 'Incluye: Como definir los obejtivos, Asesorias de como iniciar tu negocio o empresa, Como ahorrar en tus productos, Saber a que clientes va dirigido tu negocio, Revisiones de estrategias ',
+                    precio: '$5,500',
                 },
                 {
                     id: 2,
-                    imagen: '/assets/img/cerradura.jpg',
-                    nombre: 'Cerradura Biometrica',
-                    descripcion: 'Modelo: LC-1298, Smart Lock, 5 Métodos de Apertura, Teclado con Luz.',
-                    precio: '$2500',
+                    imagen: '/assets/img/sisi.png',
+                    nombre: 'Paquete 2 Publicidad',
+                    descripcion: 'Incluye: Publicidad mediante videos promocionales, Historias de instagram y facebook, Flyers, Infografias animadas',
+                    precio: '$4,500',
                 },
                 {
                     id: 3,
-                    imagen: '/assets/img/dispensador.jpg',
-                    nombre: 'Dispensador de Alimento para Mascotas',
-                    descripcion: 'Funciona con tecnología WiFi  e incluye un cuenco de acero inoxidable con capacidad de 4 litros',
-                    precio: '$1630',
+                    imagen: '/assets/img/portada12.png',
+                    nombre: 'Paquete 3 Publicidad y Asesorias',
+                    descripcion: 'Incluye:Lo antes mencionado en anteriores paquetes',
+                    precio: '$4,500',
                 },
-                {
-                    id: 4,
-                    imagen: '/assets/img/echodot.jpg',
-                    nombre: 'Echo Dot',
-                    descripcion: 'Se controla con la voz y te conecta con Alexa a través de red Wi-Fi.',
-                    precio: '$400',
-                }
+               
             ]
         }
     }
