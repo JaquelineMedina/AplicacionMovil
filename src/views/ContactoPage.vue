@@ -6,27 +6,26 @@
         <ion-buttons slot="start">
           <ion-menu-button @click="openMenu"> </ion-menu-button>
         </ion-buttons>
-        <ion-title>Contacto</ion-title>
+        <ion-title>CONTACTANOS</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding" :fullscreen="true">
       <ion-card class="div-info-contacto">
         <ion-card-header>
           <ion-card-title class="titulo-info-contacto" color="light"
-            >Información de Contacto</ion-card-title
+            >INFORMACIÓN DE CONTACTO</ion-card-title
           >
         </ion-card-header>
         <ion-card-content>
           <p class="descripcion-info-contacto">
-            ¿Tienes alguna duda? Solo escribenos en nuestras redes sociales o en
-            nuestro formulario.
+            ¿TIENES ALGUNA DUDA? SOLO ESCRIBENOS EN REDES SOCIALES, O BIEN LLENA NUESTRO FORMULARIO.
           </p>
           <div class="informacion-contacto">
             <p class="descripcion-info-contacto" href="">
               Teléfono: 618 184 68 89
             </p>
             <p class="descripcion-info-contacto" href="">
-              Correo Electrónico: atencion.a.clientes@gmail.com
+              Correo Electrónico: increasecorpjls@gmail.com
             </p>
           </div>
         </ion-card-content>
@@ -34,7 +33,7 @@
       <ion-card class="div-form-contacto">
         <ion-card-header>
           <ion-card-title class="titulo-form-contacto"
-            >Envíanos un mensaje</ion-card-title
+            >ENVIANOS UN MENSAJE</ion-card-title
           >
         </ion-card-header>
         <ion-card-content>
@@ -59,7 +58,7 @@
       </ion-card>
       <ion-card class="card-inicio-usuario">
         <ion-card-header class="card-inicio-usuario__titulo">
-          Visita nuestras redes sociales
+         VISITA NUESTRAS REDES SOCIALES
         </ion-card-header>
         <ion-card-content class="mis-dispositivos__icons">
           <router-link class="router" to="#">

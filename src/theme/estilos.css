@@ -16,12 +16,12 @@
 
 .card-container__title {
     font-family: system-ui;
-    color: #676565;
+    color: #000000;
     text-align: center;
 }
 
 .card-content__label {
-    color: #a09b9b;
+    color: #000000;
     font-family: system-ui;
     font-family: cursive;
 }
@@ -31,14 +31,14 @@
 }
 
 .button-container__style {
-    --background: #fee9a6;
+    --background: #BA1FB5;
     font-family: system-ui;
     margin-top: 1rem;
 }
 
 .help-container {
     text-align: center;
-    color: #676565;
+    color: #070707;
     font-family: system-ui;
     text-decoration: underline;
     margin-top: 1.6rem;
@@ -260,7 +260,7 @@
     padding-bottom: 4vmin;
     text-align: justify;
     margin: 25px;
-    color: #49454f;
+    color: #000000;
 }
 
 .img-nosotros {
@@ -281,7 +281,7 @@
 }
 
 .container-nos_title {
-    color: #646369;
+    color: #000000;
     font-family: "Roboto Flex", sans-serif;
     text-align: center;
     font-weight: bold;
@@ -293,7 +293,7 @@
     color: black;
     text-align: center;
     font-size: 7vmin;
-    text-shadow: gray 0em 0em 0.1em;
+    text-shadow: rgb(0, 0, 0) 0em 0em 0.1em;
     display: flex;
 }
 
@@ -301,7 +301,7 @@
     font-size: 3.5vmin;
     text-align: center;
     margin: 25px;
-    color: #49454f;
+    color: #000000;
     font-weight: lighter;
 }
 
@@ -323,7 +323,7 @@
 }
 
 .opciones-admin {
-    background: #e2faff !important;
+    background: #000000 !important;
 }
 
 .icono-menu {
@@ -352,7 +352,7 @@
 }
 
 .img-container__blur {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(255, 255, 255);
     backdrop-filter: blur(15px);
     height: 22vh;
 }
@@ -402,7 +402,7 @@
 
 /* CONTACTO */
 .div-info-contacto{
-    background-color: #EAF4F4;
+    background-color: #BA1FB5;
     color: #fff !important;
     border-radius: 2rem !important;
     padding: 1rem;

@@ -24,7 +24,7 @@
           <p class="desc">El seguimiento de tu progreso al alcance de tu mano.</p>
           <p class="desc">Crecimiento, seguimiento y calidad.</p>
         </ion-text>
-        <ion-img src="/assets/img/portada12.png" class="img-inicio"></ion-img>
+        <ion-img src="/assets/img/1.png" class="img-inicio"></ion-img>
       </ion-card>
     </ion-content>
   </ion-page>
