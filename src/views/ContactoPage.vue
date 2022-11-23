@@ -17,15 +17,16 @@
           >
         </ion-card-header>
         <ion-card-content>
+          <ion-img src="assets/img/looo.png" alt="The Wisconsin State Capitol building in Madison, WI at night"></ion-img>
           <p class="descripcion-info-contacto">
             ¿TIENES ALGUNA DUDA? SOLO ESCRIBENOS EN REDES SOCIALES, O BIEN LLENA NUESTRO FORMULARIO.
           </p>
           <div class="informacion-contacto">
             <p class="descripcion-info-contacto" href="">
-              Teléfono: 618 184 68 89
+              TELÉFONO: 618 184 68 89
             </p>
             <p class="descripcion-info-contacto" href="">
-              Correo Electrónico: increasecorpjls@gmail.com
+              CORREO ELECTRÓNICO: increasecorpjls@gmail.com
             </p>
           </div>
         </ion-card-content>
@@ -61,7 +62,7 @@
          VISITA NUESTRAS REDES SOCIALES
         </ion-card-header>
         <ion-card-content class="mis-dispositivos__icons">
-          <router-link class="router" to="#">
+          <router-link class="router" to="https://www.facebook.com/jaqueline.medina.5811/">
             <ion-icon
               size="large"
               class="mis-dispositivos__icon"
