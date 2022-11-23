@@ -2,7 +2,7 @@
     <ion-menu side="start" content-id="principal">
         <ion-header :translucent="true">
             <ion-toolbar class="toolbar">
-                <ion-title>Menú</ion-title>
+                <ion-title>MENÚ</ion-title>
             </ion-toolbar>
         </ion-header>
         <ion-content>
@@ -54,16 +54,16 @@ export default defineComponent({
     data() {
         return {
             lista: [
-                { titulo: 'Inicio', icono: '/assets/icons/inicio.svg', redirectTo: '/home' },
-                { titulo: 'Nosotros', icono: '/assets/icons/nosotros.svg', redirectTo: '/nosotros' },
-                { titulo: 'Productos', icono: '/assets/icons/admin-produc.svg', redirectTo: '/productos' },
-                { titulo: 'Contacto', icono: '/assets/icons/contacto.svg', redirectTo: '/contacto' },
-                { titulo: 'Iniciar Sesión', icono: '/assets/icons/login.svg', redirectTo: '/login' },
-                { titulo: 'Registrarse', icono: '/assets/icons/person-add.svg', redirectTo: '/signup' },
-                { titulo: 'Inicio (Administrador)', icono: '/assets/icons/inicio.svg', redirectTo: '/inicioCliente' },
+                { titulo: 'INICIO', icono: '/assets/icons/inicio1.svg', redirectTo: '/home' },
+                { titulo: 'SOBRE NOSOTROS', icono: '/assets/icons/usuarios.svg', redirectTo: '/nosotros' },
+                { titulo: 'SERVICIOS', icono: '/assets/icons/dolar.svg', redirectTo: '/productos' },
+                { titulo: 'CONTACTANOS', icono: '/assets/icons/llamada-telefonica.svg', redirectTo: '/contacto' },
+                { titulo: 'INICIO DE SESIÓN', icono: '/assets/icons/usuario.svg', redirectTo: '/login' },
+                { titulo: 'REGISTRATE', icono: '/assets/icons/agregar-usuario.svg', redirectTo: '/signup' },
+                // { titulo: 'Inicio (Administrador)', icono: '/assets/icons/inicio.svg', redirectTo: '/inicioCliente' },
                 // { titulo: 'Carrito de Compras', icono: '/assets/icons/carrito.svg', redirectTo: '/carrito' },
                 // { titulo: 'Administrar Producto', icono: '/assets/icons/admin-produc.svg', redirectTo: '/administrarProducto' },
-                { titulo: 'Configuración de Cuenta', icono: '/assets/icons/configuracion.svg', redirectTo: '/cuentaCliente' },
+                // { titulo: 'Configuración de Cuenta', icono: '/assets/icons/configuracion.svg', redirectTo: '/cuentaCliente' },
             ],
         };
     },
