@@ -13,47 +13,53 @@
     <ion-content :fullscreen="true">
       <ion-card class="container-nos">
         <ion-img
-          src="/assets/img/nosotros/ffoc.png"
+          src="/assets/img/jhtl.png"
           class="img-nosotros"
         ></ion-img>
 
         <ion-card-header>
-          <ion-card-title class="container-nos_title">Misión</ion-card-title>
+          <ion-card-title class="container-nos_title">¿QUIENES SOMOS?</ion-card-title>
         </ion-card-header>
         <ion-text>
           <p class="descripcion">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui oficia deserunt mollit anim id est laborum.
+            Increase Corp, es una empresa dedicada a darle publicidad a un negocio o proyecto, que recién acaba de emprender, así como darle el seguimiento y ser la guía de las pequeñas empresas que desean emprender, o que simplemente tienen su negocio pero no saben como hacerlo funcionar. Ofrecemos incrementar tus ventas, y aparte de ofrecer la publicidad, daremos asesorías para que puedas crecer de una manera fantástica.
           </p>
         </ion-text>
-      </ion-card>
-      <ion-card class="container-nos">
-        <ion-img
-          src="/assets/img/nosotros/starhome.png"
-          class="img-nosotros"
-        ></ion-img>
 
-        <ion-card-header>
-          <ion-card-title class="container-nos_title">Visión</ion-card-title>
-        </ion-card-header>
-
+        <ion-card-title class="container-nos_title">NUESTRO OBJETIVO</ion-card-title>
         <ion-text>
           <p class="descripcion">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui oficia deserunt mollit anim id est laborum.
+            Nuestro objetivo es ayudarte a desarrollar un proyecto que abarque las necesidades del emprendimiento para hacerlo más potencial a través de tecnologías que ayuden a crecer a aquellos negocios/empresas/proyectos,etc.
           </p>
         </ion-text>
+
+        <ion-card-title class="container-nos_title">CONOCE A NUESTRO TEAM</ion-card-title>
+
+        <ion-slides pager="true">
+
+      <ion-slide>
+
+      <img src="assets/img/liz.png">
+      
+      </ion-slide>
+
+
+       <ion-slide>
+
+      <img src="assets/img/jaq.png">
+      
+      </ion-slide>
+
+
+       <ion-slide>
+
+      <img src="assets/img/slider2.png">
+      
+      </ion-slide>
+
+</ion-slides>
       </ion-card>
+     
     </ion-content>
   </ion-page>
 </template>
