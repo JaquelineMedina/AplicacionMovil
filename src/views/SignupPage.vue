@@ -12,6 +12,8 @@
 
     <ion-content :fullscreen="true">
       <ion-card class="card-container">
+
+        <ion-img src="assets/img/cds.png" alt="The Wisconsin State Capitol building in Madison, WI at night"></ion-img>
         <ion-card-header>
           <ion-card-title class="card-container__title">INGRESA TUS DATOS</ion-card-title>
         </ion-card-header>

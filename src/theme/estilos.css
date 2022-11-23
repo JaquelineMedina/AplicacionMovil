@@ -1,27 +1,27 @@
 /*LOGIN*/
 .toolbar {
-    font-family: system-ui;
+    font-family: "serif", sans-serif;
     --background: #BA1FB5;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .card-container {
-    max-width: 80%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8rem;
+    margin-top: 2rem;
     border-radius: 10px;
 }
 
 .card-container__title {
     font-family: system-ui;
-    color: #000000;
+    color: #494646;
     text-align: center;
 }
 
 .card-content__label {
-    color: #000000;
+    color: #8B8B8B;
     font-family: system-ui;
     font-family: cursive;
 }
@@ -38,7 +38,7 @@
 
 .help-container {
     text-align: center;
-    color: #070707;
+    color: #8B8B8B;
     font-family: system-ui;
     text-decoration: underline;
     margin-top: 1.6rem;
@@ -260,20 +260,21 @@
     padding-bottom: 4vmin;
     text-align: justify;
     margin: 25px;
-    color: #000000;
+    color: #494646;
+    margin-top: 1rem;
 }
 
 .img-nosotros {
     display: flex;
     justify-content: center;
-    width: 60px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 .container-nos {
-    max-width: 80%;
+    max-width: 83%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -282,52 +283,61 @@
 
 .container-nos_title {
     color: #000000;
-    font-family: "Roboto Flex", sans-serif;
+    font-family: "serif", sans-serif;
     text-align: center;
     font-weight: bold;
+    margin-top: 0rem;
+ }   
+.container-nos_title {
+color: #000000;
+font-family: "serif", sans-serif;
+text-align: center;
+font-weight: bold;
+margin-top: 0rem;
 }
 
 /* INICIO */
 .titulo {
-    font-family: "Poppins", sans-serif;
-    color: black;
+    font-family: "serif", sans-serif;
+    color: #eebb12;
     text-align: center;
     font-size: 7vmin;
-    text-shadow: rgb(0, 0, 0) 0em 0em 0.1em;
+    text-shadow: rgb(214, 167, 12) 0em 0em 0.1em;
     display: flex;
 }
 
 .desc {
-    font-size: 3.5vmin;
+    font-size: 4vmin;
     text-align: center;
     margin: 25px;
-    color: #000000;
-    font-weight: lighter;
+    color: #494646;
+    font-weight: 600;
+    font-family:"serif", sans-serif ;
 }
 
 .container-ini {
-    max-width: 95%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4em;
+    margin-top: 6em;
 }
 
 /* MENU */
 .fondo-menu {
-    background: #f9f9f9;
+    background: #ffffff;
 }
 
 .opciones-menu {
-    font-family: "Roboto Flex", sans-serif;
-    color: #000;
+    font-family: "serif", sans-serif;
+    color: #8B8B8B;
 }
 
 .opciones-admin {
-    background: #000000 !important;
+    background: #8B8B8B !important;
 }
 
 .icono-menu {
-    color: #000;
+    color:#8B8B8B;
     padding-right: 0.7rem;
 }
 
@@ -340,7 +350,7 @@
     max-width: 80% ;
     margin: 0 auto;
     text-align: center;
-    height: 70vh;
+    height: 60vh;
     
 }
 
@@ -372,18 +382,19 @@
 .precio-producto,
 .descripcion-producto,
 .boton-producto {
-    font-family: "Roboto Flex", sans-serif;
-    color: #000;
+    font-family: "serif", sans-serif;
+    color: #8B8B8B;
 }
 
 .nombre-producto {
     font-size: 1.3rem;
     text-align: center;
+    color: #000000;
 }
 
 .descripcion-producto{
     text-align: justify;
-    font-size: 1rem;
+    font-size: 1 rem;
     
 }
 
@@ -392,6 +403,7 @@
     text-align: center;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
+    color:#494646
 }
 
 .boton-producto{
@@ -402,20 +414,21 @@
 
 /* CONTACTO */
 .div-info-contacto{
-    background-color: #BA1FB5;
-    color: #fff !important;
+    background-color: #ffffff;
+    color: #494646 !important;
     border-radius: 2rem !important;
     padding: 1rem;
     margin-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: "Roboto Flex", sans-serif;
+    font-family: "serif", sans-serif;
 }
 
 .titulo-info-contacto, .titulo-form-contacto{
     font-weight: bold;
     font-size: 1.3rem;
+    color:#000000
 }
 
 .descripcion-info-contacto{
@@ -435,7 +448,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: "Roboto Flex", sans-serif;
+    font-family: "serif", sans-serif;
 }
 
 .boton-enviar-comentario{
