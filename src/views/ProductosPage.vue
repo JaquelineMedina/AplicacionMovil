@@ -90,21 +90,21 @@ export default defineComponent({
             lista: [
                 {
                     id: 1,
-                    imagen: '/assets/img/asesorias.png',
+                    imagen: '/assets/img/paqe1.png',
                     nombre: 'Paquete 1 Asesorias ',
                     descripcion: 'Incluye: Como definir los obejtivos, Asesorias de como iniciar tu negocio o empresa, Como ahorrar en tus productos, Saber a que clientes va dirigido tu negocio, Revisiones de estrategias ',
                     precio: '$5,500',
                 },
                 {
                     id: 2,
-                    imagen: '/assets/img/sisi.png',
+                    imagen: '/assets/img/paqe1.png',
                     nombre: 'Paquete 2 Publicidad',
                     descripcion: 'Incluye: Publicidad mediante videos promocionales, Historias de instagram y facebook, Flyers, Infografias animadas',
                     precio: '$4,500',
                 },
                 {
                     id: 3,
-                    imagen: '/assets/img/portada12.png',
+                    imagen: '/assets/img/paqe.png',
                     nombre: 'Paquete 3 Publicidad y Asesorias',
                     descripcion: 'Incluye:Lo antes mencionado en anteriores paquetes',
                     precio: '$4,500',
